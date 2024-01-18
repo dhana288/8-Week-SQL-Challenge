@@ -1,12 +1,17 @@
+-- Creating the database
 CREATE DATABASE dannys_diner;
+
+-- Using the database
 USE dannys_diner;
 
+-- Creating table sales
 CREATE TABLE sales (
   customer_id VARCHAR(2),
   order_date DATE,
   product_id INT
 );
 
+-- Inserting values
 INSERT INTO sales
   (customer_id, order_date, product_id)
 VALUES
@@ -26,13 +31,14 @@ VALUES
   ('C', '2021-01-01', 3),
   ('C', '2021-01-07', 3);
  
-
+-- Creating table menu
 CREATE TABLE menu (
   product_id INT,
   product_name VARCHAR(7),
   price INT
 );
 
+-- Inserting values
 INSERT INTO menu
   (product_id, product_name, price)
 VALUES
@@ -40,12 +46,13 @@ VALUES
   (2, 'curry', 15),
   (3, 'ramen', 12);
   
-
+-- Creting table members
 CREATE TABLE members (
   customer_id VARCHAR(1),
   join_date DATE
 );
 
+-- Inserting values
 INSERT INTO members
   (customer_id, join_date)
 VALUES
