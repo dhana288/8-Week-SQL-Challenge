@@ -1,5 +1,7 @@
-# **Danny's Dinner : The Taste Of Success**
+# **Case Study 1 : Danny's Dinner**
 It is a 8 Week SQL challenge by Danna Ma. So this is the week 1 challenge case study Danny's Dinner : The Taste Of Success.
+
+![image](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/4b413d6a-61a8-4473-9428-365c6132bf24)
 
 ## **Introduction**
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
@@ -13,11 +15,28 @@ He plans on using these insights to help him decide whether he should expand the
 
 Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
 
-Danny has shared with you 3 key datasets for this case study:
-sales
-menu
-members
+## **Datasets**
+- sales
+  The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+- menu
+  The menu table maps the product_id to the actual product_name and price of each menu item.
+- members
+  The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+
+## **Entity Relationship Diagram**
 
 ![image](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/4db614c5-c783-4ecd-a7b7-22f933fb0137)
 
+## **Case Study Questions**
+
+1. What is the total amount each customer spent at the restaurant?
+2. How many days has each customer visited the restaurant?
+3. What was the first item from the menu purchased by each customer?
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+5. Which item was the most popular for each customer?
+6. Which item was purchased first by the customer after they became a member?
+7. Which item was purchased just before the customer became a member?
+8. What is the total items and amount spent for each member before they became a member?
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
