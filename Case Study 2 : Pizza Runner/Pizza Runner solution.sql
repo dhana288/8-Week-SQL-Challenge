@@ -252,10 +252,10 @@ SELECT topping_name AS most_common_exclusion FROM most_exclusion
 LIMIT 1;
 
 -- 4. Generate an order item for each record in the customers_orders table in the format of one of the following:
-Meat Lovers
-Meat Lovers - Exclude Beef
-Meat Lovers - Extra Bacon
-Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
+-- Meat Lovers
+-- Meat Lovers - Exclude Beef
+-- Meat Lovers - Extra Bacon
+-- Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
 
 SELECT order_id,pizza_names.pizza_id,pizza_name,exclusions,extras,
 CASE WHEN customer_orders_temp.pizza_id=1 AND exclusions='' AND extras='' 
@@ -340,16 +340,16 @@ CREATE TABLE ratings
 SELECT * FROM pizza_runner.ratings;
 
 -- 4. Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?
-customer_id
-order_id
-runner_id
-rating
-order_time
-pickup_time
-Time between order and pickup
-Delivery duration
-Average speed
-Total number of pizzas
+-- customer_id
+-- order_id
+-- runner_id
+-- rating
+-- order_time
+-- pickup_time
+-- Time between order and pickup
+-- Delivery duration
+-- Average speed
+-- Total number of pizzas
 
 WITH success_orders AS
 (SELECT 
