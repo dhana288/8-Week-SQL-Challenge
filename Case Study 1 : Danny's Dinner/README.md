@@ -1,7 +1,6 @@
 # **Case Study 1 : Danny's Dinner**
-It is a 8 Week SQL challenge by Danna Ma. So this is the week 1 challenge case study Danny's Dinner : The Taste Of Success.
 
-![image](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/4b413d6a-61a8-4473-9428-365c6132bf24)
+![image](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/7c8f9e3a-049a-4da5-b6e6-5f6f31d25c13)
 
 ## **Introduction**
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
