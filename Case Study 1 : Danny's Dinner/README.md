@@ -1,6 +1,6 @@
 # **Case Study 1 : Danny's Dinner**
 
-![image](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/7c8f9e3a-049a-4da5-b6e6-5f6f31d25c13)
+![w1](https://github.com/dhana288/8-Week-SQL-Challenge/assets/111521363/a396561f-ec30-48e5-b3e5-d8bbaf09596e)
 
 ## **Introduction**
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
